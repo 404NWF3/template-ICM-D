@@ -6,7 +6,8 @@
       "Bash(done)",
       "Bash(uv export:*)",
       "Bash(del /f data-exploration.ipynb)",
-      "Bash(ren data_exploration_report.ipynb data-exploration.ipynb)"
+      "Bash(ren data_exploration_report.ipynb data-exploration.ipynb)",
+      "Bash(dir \"E:\\\\@MCM\\\\template-ICM-D\\\\data\" /B)"
     ]
   }
 }

@@ -14,6 +14,10 @@ uv pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_con
 uv pip install osmnx geopandas
 ```
 
+```
+\.venv\Scripts\python.exe -m ensurepip --upgrade
+```
+
 ## Project Structure
 - `notebooks/`: Contains Jupyter notebooks for various OR and optimization problems.
 - `data/`: Directory for datasets used in the notebooks.
