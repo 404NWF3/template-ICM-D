@@ -1,0 +1,14 @@
+{
+  "enabledPlugins": {
+    "mcm-d@mcm-d-agent": true,
+    "code-review@awesome-claude-code-plugins": true,
+    "data-engineering@claude-code-workflows": true,
+    "data-preprocessing-pipeline@claude-code-plugins-plus": true,
+    "ai-ml-engineering-pack@claude-code-plugins-plus": true,
+    "machine-learning-ops@claude-code-workflows": true,
+    "ml-model-trainer@claude-code-plugins-plus": true,
+    "deep-learning-optimizer@claude-code-plugins-plus": true,
+    "python-development@claude-code-workflows": true,
+    "problem-solver-specialist@awesome-claude-code-plugins": true
+  }
+}
