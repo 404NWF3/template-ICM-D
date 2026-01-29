@@ -9,6 +9,7 @@
     "ml-model-trainer@claude-code-plugins-plus": true,
     "deep-learning-optimizer@claude-code-plugins-plus": true,
     "python-development@claude-code-workflows": true,
-    "problem-solver-specialist@awesome-claude-code-plugins": true
+    "problem-solver-specialist@awesome-claude-code-plugins": true,
+    "data-visualization-creator@claude-code-plugins-plus": true
   }
 }

@@ -4,16 +4,14 @@ A Jupyter notebook project for MCMS Operations Research and Optimization problem
 
 ## Getting Started
 
-Initialize a new conda environment:
+Initialize a new uv environment and install the required packages:
 
 ```bash
-conda create -n or-op-env python=3.9 -y
-conda activate or-op-env
-```
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
+uv venv --python 3.10.19
+uv pip install -r requirements.txt
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+uv pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.7.0+cu118.html
+uv pip install osmnx geopandas
 ```
 
 ## Project Structure

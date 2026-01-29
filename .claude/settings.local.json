@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(while read -r f)",
+      "Bash([ -f \"$f\" ])",
+      "Bash(done)",
+      "Bash(uv export:*)",
+      "Bash(del /f data-exploration.ipynb)",
+      "Bash(ren data_exploration_report.ipynb data-exploration.ipynb)"
+    ]
+  }
+}
