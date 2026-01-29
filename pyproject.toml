@@ -1,48 +1,7 @@
 [project]
-name = "template-for-or-op"
+name = "template-icm-d"
 version = "0.1.0"
-description = "A Jupyter notebook project"
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-    "jupyter>=1.0.0",
-    "jupyterlab>=4.0.0",
-    "pandas>=2.1.0",
-    "numpy>=1.26.0",
-    "matplotlib>=3.8.0",
-    "polars>=1.36.1",
-    "seaborn>=0.13.2",
-    "plotly>=6.5.1",
-    "networkx>=3.4.2",
-    "igraph>=1.0.0",
-    "pyvis>=0.3.2",
-    "simpy>=4.1.1",
-    "ortools>=9.14.6206",
-    "pulp>=3.3.0",
-    "coptpy==7.2.11",
-    "gurobipy>=13.0.0",
-    "scikit-opt>=0.6.6",
-    "pygad>=3.5.0",
-    "scipy>=1.15.3",
-    "ahp-topsis>=0.1.0",
-    "pydecision>=4.8.8",
-    "salib>=1.5.2",
-    "cupy-cuda11x>=13.0.0",
-    "torch>=2.7.1+cu118",
-    "torchvision>=0.22.1+cu118"
-]
-
-[project.optional-dependencies]
-dev = [
-    "black>=23.0.0",
-]
-
-
-[[tool.uv.index]]
-name = "pytorch-cu118"
-url = "https://download.pytorch.org/whl/cu118"
-explicit = true
-
-[tool.uv.sources]
-torch = { index = "pytorch-cu118" }
-torchvision = { index = "pytorch-cu118" }
+requires-python = ">=3.9"
+dependencies = []
